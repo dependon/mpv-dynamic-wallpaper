@@ -38,7 +38,7 @@ INSTALLS += target icon desktop
 
 FORMS += \
     settingwindow.ui
-
+RC_FILE += $$PWD/app.rc
 #win32: LIBS += -L$$PWD/3rd/ -llibmpv.dll
 
 INCLUDEPATH += $$PWD/3rd
