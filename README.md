@@ -1,5 +1,5 @@
 # simple-wallpaper
- Dynamic wallpaper  linux
+ Dynamic wallpaper  linux /windwos 
 
 ## What is this ?
 This is a dynamic wallpaper scheme for Linux, using QT and libmpv
@@ -14,5 +14,6 @@ sudo apt install qtcreator libx11-xcb-dev libxcb-ewmh-dev libmpv-dev mpv ffmpeg 
 dpkg-buildpackage -b -us -uc
 
 ## windows
+
 编译后将mpv的库移动到程序执行目录下，msvc编译才可以使用，mingw不行，因为有windows的api
 
